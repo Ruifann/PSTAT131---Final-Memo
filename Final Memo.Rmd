@@ -1,0 +1,71 @@
+---
+title: "Final Memo"
+output: html_document
+---
+
+
+
+<h5>PSTAT131<h5>
+<h5>Prof.Coburn<h5>
+<h5>Ruifan Wang<h5>
+
+
+
+## An overview of your dataset
+#### What does it include? 
+The dataset includes the salary of different college and college majors.  
+
+#### Where and how will you be obtaining it? Include the link and source.   
+https://www.kaggle.com/datasets/wsj/college-salaries?resource=download  
+I will obtain the data from kaggle.  
+
+### About how many observations? How many predictors?    
+There are 269 obeservations for school type's dataset and 50 observations for college major's salary.  
+
+### What types of variables will you be working with?     
+I will working with quantitative variables and categorical variables.  
+
+### Is there any missing data? About how much? Do you have an idea for how to handle it?  
+Yes, there are some missing data in the mid-career salary data are missing in the school type's dataset. There are around thirty of them, but since they are part of the many mid-career salary data. I choose to use 25%, 50%, and 75% percentile data. Then, there will be no missing data and the analysis will not be redundant and have repetitive models.  
+
+----
+
+### An overview of your research question(s)  
+#### What variable(s) are you interested in predicting? What question(s) are you interested in answering?  
+I am interested in predicting the clustering of salary based on school type and major. Since there are too many majors, I will dummy to variable to STEM major and non-STEM major. Because many students choose STEM major for its high paid backs. I am interested in wether there is a difference in post college salary based on school type and major type, and how much more STEM major paid back that non-STEM majors.  
+
+#### Name your response/outcome variable(s) and briefly describe it/them.  
+The outcome variable will be mid 25% career salary and mid 75% career salary.  
+the mid 25% salary will be the lower 25% of this school's or major's mid career salary.
+the mid 75% salary will be the upper 25% of this school's or major's mid career salary.  
+
+#### Will these questions be best answered with a classification or regression approach?  
+These question will be answered in a classifcation approach.  
+
+#### Which predictors do you think will be especially useful?  
+I think school type and dummy variable: STEM_major will be useful.  
+
+#### Is the goal of your model descriptive, predictive, inferential, or a combination? Explain.  
+The goal of my model will be a inferential model. I want to state the relationship between the predictor and outcome and see which feature is most significant.
+
+----  
+### Your proposed project timeline 
+#### When do you plan on having your data set loaded, beginning your exploratory data analysis, etc?  
+I am starting to load my data set and taking a look at it now. I will try to explore more data (especially, predictors) that is possible to combine in the data set.
+#### Provide a general timeline for the rest of the quarter.  
+week 3 - start format the final project.
+week 4 - go to office hours and asking about topic and some major question of my data set to see wehther it is doable or not.
+week 5 - 7: writing the report and do data analysis
+week 8 - go to office hours and asking for advice about the finished report.
+week 9 - 10 - fixing the report based on professor's feedbacks.
+final week - submit the report.  
+
+### Any questions or concerns  
+#### Are there any problems or difficult aspects of the project you anticipate?
+
+I am not sure whether my data analysis will be doable, because currently, I only have two predictors. I am wondering that other than STEM and non STEM major. I can also divide majors in to art major, engineering major, science major etc.  
+
+#### Any specific questions you have for me/the instructional team?  
+Sometimes the lab session did not cover all the material of the homework.
+
+
